@@ -1,0 +1,39 @@
+{
+  "name": "virtual-bank",
+  "version": "0.0.0-dev",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "npx tsc",
+    "dev": "ts-node-dev --ignore-watch node_modules --transpile-only ./src/app.ts",
+    "start": "node ./dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Davilez42/Virtual-Bank-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Davilez42/Virtual-Bank-server/issues"
+  },
+  "homepage": "https://github.com/Davilez42/Virtual-Bank-server#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/express-session": "^1.18.0",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/mongodb": "^4.0.6",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.8.1"
+  }
+}
